@@ -38,7 +38,7 @@ const TabNavigator = () => {
           ),
         }
       }/>
-      
+
       <Tab.Screen name="Cart" component={CartScreen} options={
         {
           tabBarIcon: ({focused}) => (
